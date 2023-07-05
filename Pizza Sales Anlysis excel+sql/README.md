@@ -1,5 +1,7 @@
 
 # Pizza Sales Analysis
+![fj](https://github.com/nehal35/EXCEL-DASHBOARDS/assets/108068313/5e16b5e0-ee27-48b8-a714-a2a32eaafe88)
+
 ![1 how many rows](https://github.com/nehal35/SQL-PROJECTSS/assets/108068313/dd39a664-4fc6-479b-952f-4e3f7708f383)
 ## 1)Total Revenue:
 ![2 total revenue](https://github.com/nehal35/SQL-PROJECTSS/assets/108068313/6b564c74-be18-438f-a30d-bca37c26eb7a)
