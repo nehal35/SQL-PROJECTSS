@@ -1,5 +1,24 @@
 
-# ZOMATO ANALYSIS
+# 📊 Zomato Data Analysis
+This project is about SQL to perform exploratory data analysis. The data set is a dummy data set much like Zomato and with some minimal data. This project is basically done to gain some better knowledge and have a more tighter grip upon SQL. For this I have used Microsoft SQL server.
+
+## 🗂 Creating Database
+Created a database of a food website like Zomato with and inserted some dummy data to do some analysis upon the data. The database, named zomato_data contains 4 tables: goldusers_signup, users, sales, and product.
+
+## 1️⃣ creating table goldusers_signup:
+        drop table if exists goldusers_signup;
+        CREATE TABLE goldusers_signup(userid integer,gold_signup_date date);
+## 2️⃣ creating table product:
+        drop table if exists product;
+        CREATE TABLE product(product_id integer,product_name text,price integer);
+## 3️⃣ creating table users:
+        drop table if exists users;
+        CREATE TABLE users(userid integer,signup_date date);
+## 4️⃣ creating table sales:
+        drop table if exists sales;
+        CREATE TABLE sales(userid integer,created_date date,product_id integer);
+## 📈 Some Analysis That Are Performed
+From next are some important questions based on which analysis is performed. Some these questions are really important in improving upon any particular product, the business model.
 
 ## 1)what is total amount each customer spent on zomato?
 ![zomato Q 1)](https://github.com/nehal35/SQL-PROJECTSS/assets/108068313/a14434db-a49e-4319-98d2-093569db72c3)
